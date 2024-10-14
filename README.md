@@ -1,12 +1,13 @@
 # Video Matrix Macro
 
-
 This is an example macro which automatically applies a video matrix on specific display outputs from a Cisco Codec.
+
+<img width="1253" alt="image" src="https://github.com/user-attachments/assets/862e3ce6-7d40-4617-8ba1-6d70675778b6">
 
 
 ## Overview
 
-This macro monitors for new calls and can apply a video matrix on indivual video outputs depending on which preconfigured layout is selected.
+This macro monitors for new calls and can apply a video matrix on individual video outputs depending on which preconfigured layout is selected.
 
 For example, this layout will apply a video matrix on output 2 with a 2x2 Grid of the input source 2:
 
@@ -20,7 +21,7 @@ For example, this layout will apply a video matrix on output 2 with a 2x2 Grid o
 }
 ```
 
-Use this templete to configure your own layout:
+Use this template to configure your own layout:
 
 ```javascript
 {
